@@ -1,0 +1,8 @@
+print("This is just a Tip calculator project")
+tb = int(input("what is the total bill?\n"))
+# print(int(tb))
+np = int(input("how many people to split the bill?\n"))
+# print(int(np))
+percent = int(input("what percentage tip whould you like to give? 10, 12, 0r 15?\n"))
+# p = int(print(percent/100))
+print("Each person should pay: ", ((percent/100)*tb+tb)/np)
