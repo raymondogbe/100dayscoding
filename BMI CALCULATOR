@@ -1,0 +1,7 @@
+print("THIS IS THE BMI CALCULATOR")
+name=input("what is your name?\n")
+w = int(input("what is your weight in kg?\n"))
+h = float(input("what is your height in m?\n"))
+bmi_now = w/h
+print(name +","+" your BMI is: ", int(bmi_now))
+print(f"{name},your BMI is: {bmi_now}") using F string.
